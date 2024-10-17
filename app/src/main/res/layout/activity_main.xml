@@ -42,7 +42,6 @@
                 android:padding="10dp"
                 android:textSize="28sp"
                 android:textStyle="bold" />
-w
             <LinearLayout
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
@@ -59,7 +58,6 @@ w
                     android:layout_width="40dp"
                     android:layout_height="40dp"
                     android:src="@drawable/ic_sort" />
-
                 <ImageView
                     android:id="@+id/listOrGridImg"
                     android:layout_width="40dp"
@@ -85,8 +83,8 @@ w
                     android:id="@+id/edSearch"
                     android:layout_width="match_parent"
                     android:layout_height="wrap_content"
-                    android:background="@color/color2"
-                    android:hint="Enter search title"
+                    android:background="@color/white"
+                    android:hint="Search Tasks..."
                     android:imeOptions="actionSearch"
                     android:inputType="text" />
 
@@ -113,14 +111,11 @@ w
         android:id="@+id/addTaskFABtn"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:layout_gravity="bottom|end"
-        android:layout_margin="16dp"
+        android:layout_gravity="bottom|center"
+        android:layout_marginBottom="16dp"
         android:backgroundTint="@color/black"
         android:text="Add Task"
         android:textColor="@color/white"
         android:textSize="18sp"
-        android:textStyle="bold"
-        app:icon="@drawable/ic_add_circle"
-        app:iconSize="25dp"
-        app:iconTint="@color/white" />
+        android:textStyle="bold" />
 </androidx.coordinatorlayout.widget.CoordinatorLayout>
