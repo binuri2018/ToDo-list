@@ -1,7 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <com.google.android.material.card.MaterialCardView xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:app="http://schemas.android.com/apk/res-auto"
-    style="@style/CardViewStyle"
     android:layout_width="match_parent"
     android:layout_height="wrap_content"
     android:layout_marginHorizontal="10dp"
@@ -84,8 +83,9 @@
                 android:layout_width="wrap_content"
                 android:layout_height="?actionBarSize"
                 android:layout_gravity="center"
+                android:background="@drawable/frame"
                 android:layout_marginTop="4dp"
-                android:backgroundTint="@color/black"
+                android:backgroundTint="@color/dark"
                 style="@style/Widget.App.Button.Fill"
                 android:text="Update Task"
                 android:textSize="20sp" />
